@@ -5,6 +5,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js",
+    "start:dev": "webpack-dev-server",
     "lite-server": "lite-server",
     "webpack": "webpack --watch",
     "build": "webpack"
@@ -20,15 +21,26 @@
   },
   "homepage": "https://github.com/coding-boot-camp/unit18hw#readme",
   "dependencies": {
+    "bootstrap": "^4.3.1",
     "compression": "^1.7.4",
     "express": "^4.17.1",
-    "mongoose": "^5.5.15",
-    "morgan": "^1.9.1"
+    "file": "^0.2.2",
+    "image-webpack-loader": "^8.1.0",
+    "jquery": "^3.6.0",
+    "loader": "^2.1.1",
+    "mongoose": "^5.13.14",
+    "morgan": "^1.9.1",
+    "popper.js": "^1.16.0",
+    "save": "^2.5.0",
+    "webpack-bundle-analyzer": "^4.5.0"
   },
   "keywords": [],
   "devDependencies": {
+    "file-loader": "^6.2.0",
     "webpack": "^5.72.1",
-    "webpack-cli": "^4.9.2"
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.9.0",
+    "webpack-pwa-manifest": "^4.3.0"
   },
   "description": ""
 }
